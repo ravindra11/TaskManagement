@@ -1,0 +1,15 @@
+{
+  "Post_AutoComplete": {
+    "WITH_VALID_DATA": {
+      "input": {
+        "name": "no"
+      },
+      "expected": {
+        "statusCode": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "TaskManagement": {
+    "getAll_documents": {
+      "expected": {
+        "status": 200,
+        "count": 1,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        }
+      }
+    },
+    "Filtering_By_BeforeEndDate": {
+      "input": {
+        "date": "Mon, 28 Dec 2017 11:21:15 GMT"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        }
+      }
+    },
+    "Filtering_By_AfterEndDate": {
+      "input": {
+        "date": "Mon, 28 Dec 2017 11:21:15 GMT"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        }
+      }
+    } ,
+    "Filtering_By_createdAfterDate": {
+      "input": {
+        "date": "Mon, 27 Dec 2017 11:21:15 GMT"
+      },
+      "expected": {
+        "status": 200,
+        "headers": {
+          "content-type": "application/json; charset=utf-8"
+        }
+      }
+    }
+  }
+}

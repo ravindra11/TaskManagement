@@ -1,0 +1,18 @@
+{
+    "Post_Task_Management":{
+      "WITH_VALID_DATA": {
+        "input": {
+          "name": "hai",
+          "endDate": "Mon, 30 Dec 2017 11:21:15 GMT",
+          "description": "this sample data",
+          "createdBy": "hello1"
+        },
+        "expected": {
+          "statusCode": 201,
+          "headers": {
+            "content-type": "application/json; charset=utf-8"
+          }
+        }
+      }
+    }
+}
